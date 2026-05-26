@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Breva Coffee — Crafted With Soul</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Breva<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta">Order Now</button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-img-bg">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80" alt="Coffee shop atmosphere" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">Est. 2019 · Piliyandala, Sri Lanka</p>
+      <h1 class="hero-title">Every Cup<br><em>Tells a Story</em></h1>
+      <p class="hero-sub">Handcrafted specialty coffee, roasted in small batches and served with intention.</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn-primary">Explore Menu</a>
+        <a href="#about" class="btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-scroll">scroll</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Espresso</span><span>·</span>
+      <span>Cold Brew</span><span>·</span>
+      <span>Cappuccino</span><span>·</span>
+      <span>Matcha Latte</span><span>·</span>
+      <span>Affogato</span><span>·</span>
+      <span>Pour Over</span><span>·</span>
+      <span>Flat White</span><span>·</span>
+      <span>Iced Mocha</span><span>·</span>
+      <span>Espresso</span><span>·</span>
+      <span>Cold Brew</span><span>·</span>
+      <span>Cappuccino</span><span>·</span>
+      <span>Matcha Latte</span><span>·</span>
+      <span>Affogato</span><span>·</span>
+      <span>Pour Over</span><span>·</span>
+      <span>Flat White</span><span>·</span>
+      <span>Iced Mocha</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">— Our Menu —</p>
+        <h2>Crafted Drinks</h2>
+      </div>
+      <div class="menu-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="hot">Hot</button>
+        <button class="filter-btn" data-filter="cold">Cold</button>
+        <button class="filter-btn" data-filter="special">Specials</button>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-visual">
+      <div class="about-img-wrap">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80" alt="Barista crafting coffee" class="about-main-img" />
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&q=80" alt="Coffee beans" class="about-secondary-img" />
+        <div class="about-stat-card">
+          <span class="stat-num">4.9</span>
+          <span class="stat-label">★ Rating</span>
+        </div>
+        <div class="about-stat-card card-2">
+          <span class="stat-num">2K+</span>
+          <span class="stat-label">Happy Guests</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-content">
+      <p class="section-tag">— About Us —</p>
+      <h2>More Than Coffee,<br>It's a <em>Ritual</em></h2>
+      <p>We believe great coffee starts long before the first sip. From sourcing single-origin beans across Sri Lanka to perfecting every grind and extraction — we're obsessed with the craft.</p>
+      <p>Breva was born from a passion for connecting people over exceptional coffee in a space that feels like home.</p>
+      <div class="about-features">
+        <div class="feat"><span class="feat-icon">🌱</span><span>Locally Sourced</span></div>
+        <div class="feat"><span class="feat-icon">🔥</span><span>Small-Batch Roasted</span></div>
+        <div class="feat"><span class="feat-icon">♻️</span><span>Eco Packaging</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">— Atmosphere —</p>
+        <h2>Life at Breva</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&q=80" alt="Coffee shop interior" />
+          <div class="gallery-overlay"><span>Our Space</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80" alt="Latte art" />
+          <div class="gallery-overlay"><span>Latte Art</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1516743619420-154b70a65fea?w=600&q=80" alt="Coffee brewing" />
+          <div class="gallery-overlay"><span>The Craft</span></div>
+        </div>
+        <div class="gallery-item wide">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=900&q=80" alt="Coffee table setup" />
+          <div class="gallery-overlay"><span>Good Vibes</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=80" alt="Iced coffee" />
+          <div class="gallery-overlay"><span>Cold Brew</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=600&q=80" alt="Coffee beans close up" />
+          <div class="gallery-overlay"><span>Origin Beans</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-bg-img">
+      <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=1400&q=80" alt="Coffee shop background" />
+      <div class="contact-overlay"></div>
+    </div>
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <p class="section-tag">— Find Us —</p>
+        <h2>Come Visit</h2>
+        <div class="info-item">
+          <span class="info-icon">📍</span>
+          <div>
+            <strong>Address</strong>
+            <p>101/C Cemetery Rd, Mawiththara, Piliyandala</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">🕐</span>
+          <div>
+            <strong>Hours</strong>
+            <p>Mon–Fri: 7 AM – 9 PM<br>Sat–Sun: 8 AM – 10 PM</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">📞</span>
+          <div>
+            <strong>Phone</strong>
+            <p>+94 70 203 7229</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <p>venujathebnnakoon19@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <h3>Send a Message</h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email Address" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message</button>
+          <div class="form-success" id="formSuccess">✅ Message sent! We'll be in touch.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Breva<span>.</span></div>
+      <p>© 2025 Breva Coffee · Crafted with ☕ in Sri Lanka</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
